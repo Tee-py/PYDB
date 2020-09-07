@@ -4,11 +4,7 @@ from db import DataBase
 
 database = DataBase('db.json')
 
-"""
-todo: create a get method for model that allows you pull
-a member by ID.
-ensure the get method returns the class instead of a dictionary
-"""
+
 
 class Member:
     def __init__(self, name, proficiency_level, age, dept, zindi=None, kaggle=None):
